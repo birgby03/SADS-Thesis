@@ -1,0 +1,41 @@
+# KiCad backup and autosave files
+*.bak
+*.tmp
+*-bak
+*-backups/
+_autosave-*
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.0001
+*.001
+*.old
+
+# Netlist & intermediate files
+*.net
+*.xml
+*.csv
+
+# Simulation outputs
+*.raw
+*.log
+*.out
+
+# Gerber output / plots (export these separately if you want to share with fab)
+*.gbr
+*.gtl
+*.gts
+*.gto
+*.gbl
+*.gbs
+*.gbo
+*.drl
+*.zip
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Python cache (if you end up writing scripts)
+__pycache__/
+*.pyc
