@@ -1,0 +1,34 @@
+# Normalize line endings for text files
+* text=auto eol=lf
+
+# KiCad files: schematics and symbols are text-based (diffable)
+*.kicad_sch text
+*.kicad_sym text
+*.kicad_mod text
+*.lib text
+*.dcm text
+
+# KiCad project files (binary-like; avoid line-by-line diffs)
+*.kicad_pro binary
+*.kicad_pcb binary
+*.kicad_prl binary
+*.kicad_wks binary
+*.kicad_dru binary
+
+# 3D models
+*.step binary
+*.stp binary
+*.wrl binary
+*.3dshapes/** binary
+
+# PDFs, images, other exports
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg binary
+
+# Archives
+*.zip binary
+*.tar binary
+*.gz binary
